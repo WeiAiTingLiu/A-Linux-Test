@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body
+{
+	background-image:url(images/bj.jpg);
+}
+#main
+{
+	width:1024px;
+	height:1100px;
+	margin:0 auto;
+}
+#top
+{
+	width:1024px;
+	height:50px;
+	padding-top:30px;
+}
+#menu
+{
+	width:1024px;
+	height:40px;
+	border-bottom:3px solid #999;
+	text-align:center;
+}
+a:link
+{
+	text-decoration:none;
+	color:#999;
+}
+a:hover
+{
+	color:#FF0;
+	text-decoration:none;
+}
+a:visited
+{
+	text-decoration:none;
+	color:#999;
+}
+#banner
+{
+	width:1024px;
+	height:370px;
+	margin:0;
+	margin-top:5px;
+	border-top:#CCC 10px solid;
+	border-bottom:#CCC 10px solid;
+}
+#left
+{
+	width:324px;
+	height:300px;
+	float:left;
+	line-height:30px;
+	margin-top:10px;
+}
+#left1
+{
+	width:314px;
+	height:30px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:14px;
+	background-image:url(images/6.jpg);
+}
+#center
+{
+	width:390px;
+	height:300px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	font-size:12px;
+}
+#center1
+{
+	width:380px;
+	height:30px;
+	font-size:14px;
+	padding-right:5px;
+	padding-left:5px;
+	background-image:url(images/6.jpg)
+}
+#right
+{
+	width:280px;
+	height:300px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	line-height:32px;
+}
+#right1
+{
+	width:270px;
+	height:30px;
+	font-size:14px;
+	padding-left:5px;
+	padding-right:5px;
+	background-image:url(images/6.jpg)
+}
+#more
+{
+	height:25px;
+	width:50px;
+	float:right;
+	font-size:14px;
+}
+#new
+{
+	width:1014px;
+	height:30px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	padding-top:5px;
+	margin-top:10px;
+	background-image:url(images/5.jpg)
+	}
+	#gundong
+	{
+		width:1024px;
+		height:100px;
+		float:left;
+		font-size:14px;
+		padding-top:5px;
+		margin-top:10px;
+	}
+	.list1
+	{
+		list-style-image:url(images/7.jpg);
+		font-size:12px;
+	}
+	#banquan
+	{
+		width:1024px;
+		height:25px;
+		margin-top:25px;
+		background-color:#CCC;
+		padding-top:10px;
+		text-align:center;
+		float:left;
+		font-size:14px;
+		}
+		#left
+		{
+			float:left;
+	    }
+</style>
+</head>
+<body>
+<div id="main">
+<div id="top" align="left">
+  <img src="images/logo.png" width="163" height="44"  />
+  </div>
+  <div id="menu">
+    <h3><a href="index.html">首页 </a>&nbsp;  &nbsp; &nbsp;  &nbsp;<a href="公司介绍.html">公司介绍 </a>&nbsp; &nbsp;   &nbsp;  &nbsp;&nbsp;<a href="产品管理.html">产品管理 </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="新闻动态.html">新闻动态</a> &nbsp; &nbsp; &nbsp;    &nbsp;&nbsp;<a href="下载专区.html"> 下载专区 </a>&nbsp; &nbsp; &nbsp; &nbsp;<a href="人才招聘.html"> 人才招聘</a>&nbsp; &nbsp;    &nbsp;&nbsp;&nbsp;<a href="联系我们.html">联系我们 </a>&nbsp;  &nbsp;&nbsp; &nbsp;<a href="留言系统.html">留言系统 </a></h3>
+  </div>
+  <div id="banner">
+<script type=text/javascript><!--flash图片轮播-->
+					var pic_width=1024; //图片宽度
+					var pic_height=370; //图片高度
+					var button_pos=4; //按扭位置 1左 2右 3上 4下
+					var stop_time=3000; //图片停留时间(1000为1秒钟)
+					var show_text=0; //是否显示文字标签 1显示 0不显示
+					var txtcolor="000000"; //文字色
+					var bgcolor="DDDDDD"; //背景色
+					var imag=new Array();
+					var link=new Array();
+					var text=new Array();
+					imag[1]="images/1.jpg";
+					
+					text[1]="标题 1";
+					imag[2]="images/2.jpg";
+					
+					text[2]="标题 2";
+					imag[3]="images/3.jpg";
+					
+					text[3]="标题 3";
+					imag[4]="images/4.jpg";
+					
+					//可编辑内容结束
+					var swf_height=show_text==1?pic_height+20:pic_height;
+					var pics="", links="", texts="";
+					for(var i=1; i<imag.length; i++){
+						pics=pics+("|"+imag[i]);
+						links=links+("|"+link[i]);
+						texts=texts+("|"+text[i]);
+					}
+					pics=pics.substring(1);
+					links=links.substring(1);
+					texts=texts.substring(1);
+					document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cabversion=6,0,0,0" width="'+ pic_width +'" height="'+ swf_height +'">');
+					document.write('<param name="movie" value="flash/focus.swf">');
+					document.write('<param name="quality" value="high"><param name="wmode" value="opaque">');
+					document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'">');
+					document.write('<embed src="flash/focus.swf" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'" quality="high" width="'+ pic_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+					document.write('</object>');
+					</script>
+  </div>
+  
+  <div id="left">
+  <div id="left1" >
+    <img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;产品分类
+    <span style="float:right; padding-top:3px" ><a href="#">更多>>></a></span>
+    </div>
+    <ul class="list1">
+    <li><a href="产品管理.html">【密度板会议桌系列】</a></li>
+    <li><a href="产品管理.html">【办公装饰家居系统】</a></li>
+    <li><a href="产品管理.html">【展览展台家居系列】</a></li>
+    <li><a href="产品管理.html">【橱窗柜台家居系列】</a> </li>
+    <li><a href="产品管理.html">【商业空间家居系列】</a></li>
+    <li><a href="产品管理.html">【家庭装饰家居系列】</a></li>
+    <li><a href="产品管理.html">【最新推荐家居系列】</a></li>
+    </ul>
+  </div>
+  
+  <div id="center">
+  <div id="center1">
+  <img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;公司介绍     <span style="float:right; padding-top:10px;" ><a href="#">更多>>></a></span>
+   </div>
+   <p style="line-height:20px; word-spacing:3px;"><img src="images/0411405393092721.gif" width="193" height="141"  align="left"/>富兴源办公家具公司是一家系统办公家具公司，系统是产品齐全，系统是服务全程，节约客户宝贵时间，勇担责任，引导客户做出合理决策。本公司主要生产课桌椅、阶梯椅、剧场椅、橱柜，餐桌、屏风、钢架床，学生公寓家俱，办公家俱等。产品适用于政府机关、学校、宾馆、酒店、家庭厨房，医院、银行等。公司拥有高效的团队，科学的管理，先进的设备，完美的设计，结合优质的材料。公司坚持“质优价廉”的经营原则，使广大客户放心采购。公司将一如既往地竭诚为广大用户提供所值的产品，周到满意的服务。唯美不仅是我们的追求...</p> 
+  </div>
+  <div id="right">
+  <div id="right1"><img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;最新资讯    <span style="float:right" ><a href="#">更多>>></a></span>
+    <ul class="list1">
+    <li><a href="#">家庭装修的注意事项1</a></li>
+    <li><a href="#">家庭装修的注意事项2</a></li>
+    <li><a href="#">装修行业家庭装修完全手....</a></li>
+     <li><a href="#">家庭装修只交3项费用</a></li>
+    <li><a href="#">特别策划"家装企...</a></li>
+   <li><a href="#">厦门多家装修公司设计集...</a></li>
+     <li><a href="#">浅析装修木门时该选什...</a></li>
+    </ul>
+  </div>
+  </div>
+  <div id="new" ><img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;最新产品
+     <span style="float:right; padding-top:5px;"><a href="#">更多>></a></span>
+  </div>
+  <div id="gundong">
+  <marquee behavior="scroll" direction="left" scrolldelay="100"  onmousemove="this.stop()" onmouseout="this.start()">
+   <table width="1024" height="124" border="0" cellpadding="0" cellspacing="0">
+    <tr align="center">
+      <td height="80" width="120"><img src="images/0411400965021692.jpg" width="126" height="100" /></td>
+      <td width="120"><img src="images/0411401194121123.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411401698290949.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411401949332649.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411402085430554.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411402542792563.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411402230533164.jpg" width="120" height="100" /></td>
+      <td width="120"><img src="images/0411402707864735.jpg" width="120" height="100" /></td>
+    </tr>
+    <tr align="center">
+      <td height="19"><a href="#">家庭装饰</a></td>
+      <td><a href="产品管理.html">办公装饰</a></td>
+      <td><a href="产品管理.html">办公装饰</a></td>
+      <td><a href="产品管理.html">酒店宾馆</a></td>
+      <td><a href="产品管理.html">橱窗柜台</a></td>
+      <td><a href="产品管理.html">家庭装饰</a></td>
+      <td><a href="产品管理.html">家庭装饰</a></td>
+      <td><a href="产品管理.html">客厅装饰 </a></td>
+    </tr>
+  </table>
+ </marquee>
+  </div>
+  <div id="banquan"><a href="联系我们.html">联系我们</a> | <a href="公司介绍.html">公司介绍 </a>|<a href="新闻动态.html"> 网站新闻</a> | <a href="留言系统.html">留言系统</a> | <a href="友情链接.html">友情链接</a></div>
+</div>
+</body>
+</html>

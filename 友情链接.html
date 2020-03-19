@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+
+
+body
+{
+	background-image:url(images/bj.jpg);
+}
+#main
+{
+	width:1024px;
+	height:1000px;
+	margin: auto;
+}
+#top
+{
+	width:1024px;
+	height:70px;
+	padding-top:30px;
+}
+#menu
+{
+	width:1024px;
+	height:40px;
+	border-bottom:3px solid #999;
+	text-align:center;
+}
+a:link
+{
+	text-decoration:none;
+	color:#999;
+}
+a:hover
+{
+	color:#FF0;
+	text-decoration:none;
+}
+a:visited
+{
+	text-decoration:none;
+	color:#999;
+}
+#banner
+{
+	width:1024px;
+	height:370px;
+	margin:0;
+	margin-top:5px;
+	border-top:#CCC 10px solid;
+	border-bottom:#CCC 10px solid;
+}
+#left
+{
+	width:300px;
+	float:left;
+	height:400px;
+	margin-top:10px;
+}
+#left1
+{
+	height:30px;
+	width:295px;
+	padding-top:5px;
+	padding-left:5px;
+	font-size:14px;
+	background-image:url(images/6.jpg)
+}
+#left2
+{
+	width:295px;
+	height:30px;
+	background-image:url(images/6.jpg);
+	padding-top:5px;
+	padding-left:5px;
+	
+}
+#more
+{
+	height:35px;
+	width:30px;
+	float:right
+}
+#list
+{
+	list-style-image:url(images/7.jpg);
+	line-height:20px;
+	font-size:12px;
+	color:#999;
+}
+#right
+{
+	width:714px;
+	height:400px;
+	float:right;
+	margin-top:10px;
+	margin-left:10px;
+}
+#right1
+{
+	widows:709px;
+	height:30px;
+	padding-top:5px;
+	padding-right:5px;
+	font-size:14px;
+	background-image:url(images/5.jpg)
+}
+table
+{
+	margin-top:30px;
+	margin-left:30px;
+	font-size:12px;
+	text-align:center;
+}
+#banquan
+{
+	width:1024px;
+	height:20px;
+	padding-top:5px;
+	float:left;
+	text-align:center;
+	font-size:14px;
+	background-color:#CCC;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="top" align="left">
+  <img src="images/logo.png" width="163" height="44" /></div>
+  <div id="menu">
+ <h3><a href="index.html">首页 </a>&nbsp;  &nbsp; &nbsp;  &nbsp;<a href="公司介绍.html">公司介绍 </a>&nbsp; &nbsp;   &nbsp;  &nbsp;&nbsp;<a href="产品管理.html">产品管理 </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="新闻动态.html">新闻动态</a> &nbsp; &nbsp; &nbsp;    &nbsp;&nbsp;<a href="下载专区.html"> 下载专区 </a>&nbsp; &nbsp; &nbsp; &nbsp;<a href="人才招聘.html"> 人才招聘</a>&nbsp; &nbsp;    &nbsp;&nbsp;&nbsp;<a href="联系我们.html">联系我们 </a>&nbsp;  &nbsp;&nbsp; &nbsp;<a href="留言系统.html">留言系统 </a></h3>
+  </div>
+  <div id="banner">
+<script type=text/javascript><!--flash图片轮播-->
+					var pic_width=1024; //图片宽度
+					var pic_height=370; //图片高度
+					var button_pos=4; //按扭位置 1左 2右 3上 4下
+					var stop_time=3000; //图片停留时间(1000为1秒钟)
+					var show_text=0; //是否显示文字标签 1显示 0不显示
+					var txtcolor="000000"; //文字色
+					var bgcolor="DDDDDD"; //背景色
+					var imag=new Array();
+					var link=new Array();
+					var text=new Array();
+					imag[1]="images/9.jpg";
+					
+					text[1]="标题 1";
+					imag[2]="images/10.jpg";
+					
+					text[2]="标题 2";
+					imag[3]="images/11.jpg";
+
+					//可编辑内容结束
+					var swf_height=show_text==1?pic_height+20:pic_height;
+					var pics="", links="", texts="";
+					for(var i=1; i<imag.length; i++){
+						pics=pics+("|"+imag[i]);
+						links=links+("|"+link[i]);
+						texts=texts+("|"+text[i]);
+					}
+					pics=pics.substring(1);
+					links=links.substring(1);
+					texts=texts.substring(1);
+					document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cabversion=6,0,0,0" width="'+ pic_width +'" height="'+ swf_height +'">');
+					document.write('<param name="movie" value="flash/focus.swf">');
+					document.write('<param name="quality" value="high"><param name="wmode" value="opaque">');
+					document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'">');
+					document.write('<embed src="flash/focus.swf" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'" quality="high" width="'+ pic_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+					document.write('</object>');
+					</script>
+  </div>
+  <div id="left">
+  <div id="left1"><img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;最新文章<span style="float:right; font-size:12px"><a href="#">更多>></a></span></div>
+  <ul id="list">
+  <li><a title="家庭装修的注意事项1" href="file:///E:/图片/201411050853090/新闻内容页shownews.html">家庭装修的注意事项1</a></li>
+  <li>家庭装修的注意事项2 </li>
+  <li>装修行业家庭装修完全手册 </li>
+  <li>家庭装修只交3项费用 </li>
+  <li>特别策划 "家装企业信誉" </li>
+  <li>厦门多家装修公司设计集体跳槽 </li>
+  <li>浅析装修木门时该选用什么油漆？ </li>
+  <li>分享选购吸顶灯具的经验哦 进来看看吧 </li>
+  <li>如果您想装修的话 有6种晦气家居风水要尽量避免哦 </li>
+  <li>最让装修的人费钱又头痛的三大细节 千万别忽视哦 </li> 
+  </ul>
+  <div id="left2"><img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;最新文章<span style="float:right; font-size:12px"><a href="#">更多>></a></span></div>
+  <ul id="list">
+  <li>新闻中心</li>
+  </ul>
+</div>
+<div id="right">
+<div id="right1"><img src="images/8.jpg" width="5" height="20" />&nbsp;&nbsp;合作伙伴</div>
+<table width="500" border="0" cellspacing="0" cellpadding="0" >
+  <tr >
+    <td height="80" width="143" ><img src="images/baidu.jpg" width="97" height="90" /></td>
+    <td height="80" width="228"><img src="images/souhu.jpg" width="75" height="75" /></td>
+    <td height="80" width="129"><img src="images/yahu.jpg" width="75" height="75" /></td>
+  </tr>
+  <tr height="80" width="80">
+    <td height="33" ><a href="www.baudu,com">百度</a></td>
+    <td><a href="www.souhu.com">搜狐</a></td>
+    <td><a href="www.yahoo.com">雅虎</a></td>
+  </tr>
+</table>
+
+</div>
+  <div id="banquan"><a href="联系我们.html">联系我们</a> | <a href="公司介绍.html">公司介绍 </a>|<a href="新闻动态.html"> 网站新闻</a> |
+    <a href="留言系统.html">留言系统</a> | <a href="友情链接.html">友情链接</a></div>
+</div>
+</div>
+</body>
+</html>
